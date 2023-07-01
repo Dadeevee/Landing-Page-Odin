@@ -68,6 +68,9 @@ button {
     padding: 8px 32px;
     font-size: 18px;
     margin-top: 8px;
+    border: 0;
+    border-radius: 25px;
+
 }
 .bodytitle {
     font-size: 36px;
@@ -82,11 +85,12 @@ button {
 }
 .medbox {
     width: 170px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 .smallbox {
     border: solid #3882f6 4px;
     height: 170px;
+    border-radius: 16px;
 }
 .medbox .sentence {
     text-align: center;
@@ -104,6 +108,34 @@ button {
 .author {
     text-align: end;
 }
+.cta {
+    margin: 100px 250px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.ctatop {
+    font-size: 24px;
+    font-weight: bold;
+}
+.ctabottom {
+    font-size: 12px;
+}
+.cta button {
+    border: solid white 2px;
+    border-radius: 8px;
+}
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 48px;
+}
+
 
 
 
