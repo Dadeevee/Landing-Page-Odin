@@ -9,28 +9,102 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 8px 128px
+    padding: 16px 256px;
+    color: white; 
+
 }
 .header {
     display: flex;
     justify-content: space-between;
+    
 }
 .headerlogo {
-    color: white;
     font-weight: bold;
-}
-.headerlinks {
-    display: flex;
+    font-size: 24px;
 }
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 24px;
+    margin: 0;   
+    font-size: 18px;
 }
 a {
     text-decoration: none;
-    color: white;
-    
+    color: #A9A9A9;   
 }
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin-bottom: 128px;   
+}
+.introleft {
+    flex: 1;
+    padding-right: 36px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+.sentence {
+    font-size: 18px;
+    color: #A9A9A9;
+}
+.introimage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #A9A9A9;
+    padding: 36px;
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 8px 32px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.bodytitle {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 36px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+.medbox {
+    width: 170px;
+    padding-bottom: 100px;
+}
+.smallbox {
+    border: solid #3882f6 4px;
+    height: 170px;
+}
+.medbox .sentence {
+    text-align: center;
+}
+.quotation {
+    background-color: #A9A9A9;
+    padding: 150px 350px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;  
+}
+.author {
+    text-align: end;
+}
+
+
 
     
